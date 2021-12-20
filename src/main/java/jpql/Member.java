@@ -11,7 +11,7 @@ import static javax.persistence.FetchType.*;
 @Entity
 @NamedQuery(
         name = "Member.findByUsername",
-        query = "select m from Memberqq m where m.username = :username"
+        query = "select m from Member m where m.username = :username"
 )
 public class Member {
 
